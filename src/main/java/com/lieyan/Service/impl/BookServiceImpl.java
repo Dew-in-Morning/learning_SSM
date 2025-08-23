@@ -1,4 +1,6 @@
 package com.lieyan.Service.impl;
 
-public class BookServiceImpl {
+import com.lieyan.Service.BookService;
+
+public class BookServiceImpl implements BookService {
 }

@@ -1,4 +1,6 @@
 package com.lieyan.dao.impl;
 
-public class BookDaoImpl {
+import com.lieyan.dao.BookDao;
+
+public class BookDaoImpl implements BookDao {
 }
