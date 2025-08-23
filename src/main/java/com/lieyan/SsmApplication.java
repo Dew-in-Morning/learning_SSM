@@ -1,4 +1,4 @@
-package com.lieyan.ssm;
+package com.lieyan;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
