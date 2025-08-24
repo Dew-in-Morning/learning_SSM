@@ -11,7 +11,7 @@ public class BookDaoImpl implements BookDao {
 
     @Override
     public void save() {
-        int i = 100;
+        int i = 3;
         while (i-- != 0) {
             System.out.println("Dao save...");
         }

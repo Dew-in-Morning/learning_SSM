@@ -12,7 +12,7 @@ public class BookServiceImpl implements BookService {
     BookDao bookDao;
 
     @Override
-    public void save() {
+    public void save(String a,int b) {
         System.out.println("Service save...");
         this.bookDao.save();
     }

@@ -14,6 +14,6 @@ public class SsmApplication {
 
         // 测试依赖注入
         BookService bookService = context.getBean(BookService.class);
-        bookService.save();
+        bookService.save("aa",2);
     }
 }

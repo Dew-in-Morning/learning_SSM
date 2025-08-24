@@ -1,5 +1,5 @@
 package com.lieyan.Service;
 
 public interface BookService {
-    public void save();
+    public void save(String a,int b);
 }
