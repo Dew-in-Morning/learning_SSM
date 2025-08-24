@@ -69,12 +69,16 @@
             <version>3.0.4</version>
             <scope>test</scope>
         </dependency>
-<!--        itheima课程-ioc入门案例-导包-->
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+<!--        itheima课程-ioc入门案例-导包-->
+        <!-- <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>5.2.10.RELEASE</version>
-        </dependency>
+        </dependency> -->
     </dependencies>
 
     <build>

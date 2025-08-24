@@ -1,13 +1,20 @@
 package com.lieyan.dao.impl;
 
 import com.lieyan.dao.BookDao;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class BookDaoImpl implements BookDao {
-    private BookDaoImpl(){
+    public BookDaoImpl() {
         System.out.println("bookconstructor is running...");
     }
+
     @Override
     public void save() {
-        System.out.println("Dao save...");
+        int i = 100;
+        while (i-- != 0) {
+            System.out.println("Dao save...");
+        }
+        System.out.println("Dao end!");
     }
 }
